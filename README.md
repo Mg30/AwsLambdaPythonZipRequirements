@@ -9,4 +9,4 @@
  
  3- This actions will provide an artifact with following path : dependencies.zip
  
- 4- Use  actions/upload-artifact@v2 to collect the dependencies.zip to further use
+ 4- Use  actions/upload-artifact@v2 to collect the dependencies.zip for further use
