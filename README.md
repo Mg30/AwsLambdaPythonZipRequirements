@@ -6,3 +6,7 @@
  1- You should have a github repo where you will push the requirements.txt file
 
  2- Your github actions worflow must use action/checkout before use this actions because it need to access your repo
+ 
+ 3- This actions will provide an artifact with following path : dependencies.zip
+ 
+ 4- Use  actions/upload-artifact@v2 to collect the dependencies.zip to further use
