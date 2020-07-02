@@ -1,5 +1,9 @@
 name: 'package python-3.7 dependencies for aws lambda'
 description: 'Build a zip archive from requirements.txt'
+inputs:
+  package-name:
+    description: 'the lambda function name to deploy code to'
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
