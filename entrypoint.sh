@@ -2,4 +2,4 @@ cd $DEPENDENCIES_DIR
 python -m venv venv && \
     source venv/bin/activate && \
     pip install -r ./requirements.txt -t python/lib/python3.7/site-packages/
-zip -r $PACKAGE_NAME.zip python
+zip -r $INPUT_PACKAGE_NAME.zip python
